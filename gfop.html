@@ -83,6 +83,42 @@
 				line-height: 1.7;
 			}
 
+			.programme {
+				margin-top: 2rem;
+			}
+
+			.programme h3 {
+				margin: 0 0 1rem;
+				font-family: Arial, sans-serif;
+				font-size: 1rem;
+			}
+
+			.programme-list {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+			}
+
+			.programme-list li {
+				display: grid;
+				grid-template-columns: 8rem 1fr;
+				gap: 0.5rem 1rem;
+				padding: 0.8rem 0;
+				border-top: 1px solid var(--line);
+				line-height: 1.5;
+			}
+
+			.programme-list time {
+				color: var(--accent);
+				font-family: Arial, sans-serif;
+				font-size: 0.9rem;
+				font-weight: 700;
+			}
+
+			@media (max-width: 480px) {
+				.programme-list li { grid-template-columns: 1fr; gap: 0.2rem; }
+			}
+
 			footer {
 				margin-top: 2rem;
 				color: var(--muted);
@@ -104,15 +140,39 @@
 				The programme is loosely based on the success of the TESS Follow-up Program (TFOP), but will have significant differences especially concerning publication policies. 
 				The GFOP aims to avoid duplication of observational efforts while fostering collaboration within the astronomical community.</p>
 			<!-- <p> test</p> -->
-
+				
 			
 			<section class="meeting" aria-labelledby="meeting-title">
 				<h2 id="meeting-title">Kick-off meeting</h2>
 				<p class="date"><time datetime="2026-10-20T17:00:00+02:00">October 20, 2026 </time></p>
+				<!-- <p class="details"> 17hr Central European Time // 11am US Eastern Time // 8am US Pacific Time </p> -->
+				<p class="details">The GFOP will be kick-started in a fully online meeting a bit more than a month before Gaia DR4. 
+					This will be an important opportunity for the community to discuss the goals and structure of the GFOP, as well as to address any questions from potential participants. 
+					Since GFOP is fully community driven, the success of the programme relies on the participation the research groups interested in Gaia DR4 follow-up.
+					</p>
+				<p class="details">To participate you must register in advance and/or join the GFOP email list where the latest updates will be shared. 
+					To join, or recieve the registration link, please email the organising committee via this <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%67%61%69%61%5F%67%66%6F%70%5F%73%74%65%65%72%69%6E%67%40%67%6F%6F%67%6C%65%67%72%6F%75%70%73%2E%63%6F%6D">link</a>.
+				
+				</p>
+				<div class="programme">
+					<h3>Preliminary programme</h3>
+					<ol class="programme-list">
+						<li><time datetime="2026-10-20T17:00:00+02:00">17:00 CEST / 11:00 EDT</time><span>Welcome and meeting aims (Speaker: TBD)</span></li>
+						<li><time datetime="2026-10-20T17:10:00+02:00">17:10</time><span>GFOP overview: goals, scope, and proposed structure (Speaker: TBD)</span></li>
+						<li><time datetime="2026-10-20T17:20:00+02:00">17:30</time><span>Gaia DR4 (Speaker: TBD)</span></li>
+						<li><time datetime="2026-10-20T17:40:00+02:00">18:00</time><span>Lessons learned from TFOP (Speaker: TBD)</span></li>
+						<li><time datetime="2026-10-20T18:20:00+02:00">18:20</time><span>Questions, next steps, and closing (Speaker: TBD)</span></li>
+						<li><time datetime="2026-10-20T18:30:00+02:00">18:30</time><span>End</span></li>
+					</ol>
+				</div>
+					
 
-				<p class="details">The GFOP will be kick-started on October 20, 2026 at 17hr Central European Time // 11am US Eastern Time. 
-					The event will be fully online. To participate you must register in advance and/or join the GFOP email list where the latest updates will be shared. 
-					To join, please email the organising committee via the link below.</p>
+				
+				
+
+				<p class="details">The GFOP Steering Committee currently consists of: </br>
+				Daniel Bayliss, Anthony Brown, Jessie Christiansen, Kevin Hardegree-Ullman, Elisabeth Matthews, Louise Dyregaard Nielsen, Kevin Schlaufman, Tomas Stolker, & Daniel Yahalomi 
+					</p>
 
 
 			</section>
